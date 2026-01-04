@@ -1,0 +1,17 @@
+.DS_Store
+.vscode/
+.idea/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+models/*
+!models/.gitkeep
+
+requests.jsonl
+*.log
