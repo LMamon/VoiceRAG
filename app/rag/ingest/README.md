@@ -1,0 +1,1 @@
+ingest is for ETL for text files (HTML, PDF, DOCS AND TXT) using llamaindex.
