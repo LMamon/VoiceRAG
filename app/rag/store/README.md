@@ -1,0 +1,1 @@
+use sqlite-vec for persistent local storage instead of in memory and store logs here
