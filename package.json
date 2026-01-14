@@ -1,0 +1,37 @@
+{
+  "name": "voicerag",
+  "description": "A local-first voice assistant that uses retrieval-augmented generation (RAG) with Ollama and SQLite for private, offline-friendly AI.",
+  "scripts": {
+    "start": "node app/server/src/server.ts",
+    "ui": "npx tsc -p app/ui --watch",
+    "dev": "concurrently \"npm run ui\" \"npm run start\""
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/static": "^9.0.0",
+    "@llamaindex/core": "^0.6.22",
+    "@llamaindex/ollama": "^0.1.23",
+    "@llamaindex/readers": "^3.1.21",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.6.2",
+    "llamaindex": "^0.12.1",
+    "ollama": "^0.6.3",
+    "sqlite-vec": "^0.1.7-alpha.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "rag",
+    "voice",
+    "ollama",
+    "edge-ai",
+    "speech-to-text",
+    "sqlite",
+    "llm"
+  ],
+  "type": "module",
+  "license": "Apache-2.0"
+}
