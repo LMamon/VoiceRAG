@@ -1,0 +1,1 @@
+embed nl query then use querySimilarityDocumentts() and then have lm responsd
