@@ -5,7 +5,7 @@ A voice-first RAG (Retrieval-Augmented Generation) application that lets you int
 ## Features
 
 - **Voice Input/Output** - Speak to your agent using spacebar PTT
-- **Document Ingestion** - Load and index your documents into a vector store
+- **Document Ingestion** - Load and index your documents into a local vector db using sqlite-vec
 - **RAG System** - Retrieve relevant documents and generate contextual responses
 - **BYOM (Bring Your Own Model)** - Uses Ollama for flexible model selection
 - **Local-First** - Run entirely on your machine with your choice of models
@@ -68,7 +68,7 @@ Open your browser to address provided
  - Vector Store: Persistent storage for document embeddings
  - LLM: Ollama integration for both embedding and generation
 
-### Feature Requests
+### under construction
 Better browser UI
 
 ### License
